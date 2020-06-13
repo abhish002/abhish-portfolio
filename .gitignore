@@ -1,0 +1,4 @@
+# ignore generated node modules
+node_modules
+
+.next
