@@ -9,9 +9,20 @@
   },
   "author": "",
   "license": "ISC",
+  "browser": {
+    "html-pdf": false
+  },
   "dependencies": {
+    "@svgr/webpack": "^5.4.0",
+    "file-loader": "^6.0.0",
+    "isomorphic-unfetch": "^3.0.0",
     "next": "^9.4.4",
+    "nprogress": "^0.2.0",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "react-pdf": "^4.1.0"
+  },
+  "devDependencies": {
+    "html-pdf": "^2.2.0"
   }
 }

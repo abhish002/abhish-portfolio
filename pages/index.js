@@ -1,11 +1,14 @@
-import React from 'react';
+import React, { Component, useState } from 'react';
+import Layout from '../components/layout/layout.componet';
 
-export const Index = () => {
-    return (
-        <div>
-            <h1>Home Page</h1>
-        </div>
-    )
+class Index extends Component {    
+    render() {        
+        return (
+            <Layout title='Home'>
+                <p>Welcome to my portfolio!!</p>                       
+            </Layout>
+        )
+    }
 }
 
 export default Index;
