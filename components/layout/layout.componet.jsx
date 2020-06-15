@@ -44,6 +44,10 @@ export const Layout = ({ title, children }) => {
                     justify-content: center;
                 }
 
+                h1 {
+                    text-transform: capitalize;
+                }
+
                 header {
                     width: 100vw;
                     display: flex;

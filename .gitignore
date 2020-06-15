@@ -1,4 +1,7 @@
 # ignore generated node modules
 node_modules
 
+out
+
 .next
+.vercel
