@@ -26,7 +26,5 @@
     "react-dom": "^16.13.1",
     "react-pdf": "^4.1.0"
   },
-  "devDependencies": {
-    "html-pdf": "^2.2.0"
-  }
+  "devDependencies": {}
 }
