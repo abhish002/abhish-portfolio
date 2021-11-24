@@ -21,7 +21,7 @@ export const Layout = ({ title, children }) => {
     return (
         <div className='layout'>
             <Head>
-                <title>Portfolio App</title>
+                <title>Abhish Portfolio</title>
             </Head>
             <header>
                 <Link href='/'><a>Home</a></Link>
